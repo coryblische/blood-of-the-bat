@@ -7,7 +7,7 @@ author:
 slug: "home"
 description: "This is my blog."
 coverImage: ""
-publishedAt: "2022-03-17T05:35:07.322Z"
+publishedAt: "2025-09-06T04:00:00.000Z"
 ---
 
 # Welcome to Blood of the Bat
