@@ -1,6 +1,6 @@
 {
-  "commit": "",
-  "generated": "2025-09-06T16:51:53.746Z",
+  "commit": "118278784f861db71da46d233f2f5605c2df4a49",
+  "generated": "2025-09-06T16:57:13.292Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,6 +17,24 @@
       "slug": "gigs",
       "status": "draft",
       "title": "gigs"
+    },
+    {
+      "__outstatic": {
+        "commit": "118278784f861db71da46d233f2f5605c2df4a49",
+        "hash": "270662898",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "init",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Homepage"
     }
   ]
 }

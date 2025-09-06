@@ -2,7 +2,7 @@
 title: "Homepage"
 status: "published"
 author:
-  name: "Andre Vitorio"
+  name: "init"
   picture: ""
 slug: "home"
 description: "This is my blog."
