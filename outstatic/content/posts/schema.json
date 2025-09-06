@@ -20,6 +20,14 @@
         {
           "value": "outstatic",
           "label": "Outstatic"
+        },
+        {
+          "value": "bandNews",
+          "label": "Band News"
+        },
+        {
+          "value": "blackSabbath",
+          "label": "Black Sabbath"
         }
       ]
     }

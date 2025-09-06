@@ -1,6 +1,6 @@
 {
-  "commit": "9099eca28e144d7b8b82e4abf37933518d2807df",
-  "generated": "2025-09-06T17:01:18.180Z",
+  "commit": "6d422a8b4c425e5b4553d3f01fe729f11c2f5d02",
+  "generated": "2025-09-06T17:02:32.228Z",
   "metadata": [
     {
       "__outstatic": {
@@ -35,6 +35,34 @@
       "slug": "gigs",
       "status": "published",
       "title": "gigs"
+    },
+    {
+      "__outstatic": {
+        "commit": "6d422a8b4c425e5b4553d3f01fe729f11c2f5d02",
+        "hash": "1262783053",
+        "path": "outstatic/content/posts/birth-of-blood.md"
+      },
+      "author": {
+        "name": "Ozzy McCover",
+        "picture": "https://avatars.githubusercontent.com/u/7364726?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/og-image.png",
+      "description": "Announcing the formation of our Black Sabbath cover band.",
+      "publishedAt": "2025-09-06T00:00:00.000Z",
+      "slug": "birth-of-blood",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Band News",
+          "value": "bandNews"
+        },
+        {
+          "label": "Black Sabbath",
+          "value": "blackSabbath"
+        }
+      ],
+      "title": "The Birth of Blood of the Bat"
     }
   ]
 }
