@@ -1,0 +1,13 @@
+# Normalize text files and check them out with LF
+* text=auto eol=lf
+
+# Keep Windows scripts CRLF if needed
+*.bat eol=crlf
+*.cmd eol=crlf
+*.ps1 eol=crlf
+
+# Never touch binary files
+*.png -text
+*.jpg -text
+*.pdf -text
+*.zip -text
