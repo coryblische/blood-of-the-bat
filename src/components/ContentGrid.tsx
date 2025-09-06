@@ -33,15 +33,17 @@ const ContentGrid = ({
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
             <Card>
               <CardContent className='p-3'>
-                <Image
-                  src={item.coverImage ?? ''}
-                  alt={`Cover Image for ${item.title}`}
-                  className='h-auto w-full object-cover object-center'
-                  width={0}
-                  height={0}
-                  sizes='(min-width: 768px) 347px, 192px'
-                  priority={priority && id <= 2}
-                />
+                {item.coverImage && (
+                  <Image
+                    src={item.coverImage}
+                    alt={`Cover Image for ${item.title}`}
+                    className='h-auto w-full object-cover object-center'
+                    width={0}
+                    height={0}
+                    sizes='(min-width: 768px) 347px, 192px'
+                    priority={priority && id <= 2}
+                  />
+                )}
                 {collection === 'posts' && (
                   <div>
                     <div className='flex gap-2'>
