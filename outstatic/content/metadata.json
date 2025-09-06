@@ -1,6 +1,6 @@
 {
-  "commit": "b6938ac1705dec7f8fa936d114b9fdec2acee094",
-  "generated": "2025-09-06T16:29:18.325Z",
+  "commit": "1b12dcf60d9093348b24b0cc2d22576e05448ea5",
+  "generated": "2025-09-06T16:29:26.216Z",
   "metadata": [
     {
       "__outstatic": {
@@ -186,6 +186,22 @@
       "tags": [
       ],
       "title": "post test"
+    },
+    {
+      "__outstatic": {
+        "commit": "1b12dcf60d9093348b24b0cc2d22576e05448ea5",
+        "hash": "3168595283",
+        "path": "examples/basic-blog/outstatic/content/projects/project-test.mdx"
+      },
+      "author": {
+        "name": "Cory Blische",
+        "picture": "https://avatars.githubusercontent.com/u/7364726?v=4"
+      },
+      "collection": "projects",
+      "publishedAt": "2025-09-06T16:05:21.296Z",
+      "slug": "project-test",
+      "status": "draft",
+      "title": "project test"
     }
   ]
 }
