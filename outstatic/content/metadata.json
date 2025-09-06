@@ -1,6 +1,6 @@
 {
-  "commit": "6d422a8b4c425e5b4553d3f01fe729f11c2f5d02",
-  "generated": "2025-09-06T17:02:32.228Z",
+  "commit": "971d5b21d326e4cbde13dbb6bb1a96a894846193",
+  "generated": "2025-09-06T17:02:55.982Z",
   "metadata": [
     {
       "__outstatic": {
@@ -63,6 +63,25 @@
         }
       ],
       "title": "The Birth of Blood of the Bat"
+    },
+    {
+      "__outstatic": {
+        "commit": "971d5b21d326e4cbde13dbb6bb1a96a894846193",
+        "hash": "585116787",
+        "path": "outstatic/content/posts/song-spotlight.md"
+      },
+      "author": {
+        "name": "Geezer Butler Jr."
+      },
+      "collection": "posts",
+      "coverImage": "/images/skyline.png",
+      "description": "A deep dive into Black Sabbath’s classic anthem, Paranoid.",
+      "publishedAt": "2025-09-01T00:00:00.000Z",
+      "slug": "song-spotlight",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Song Spotlight: Paranoid"
     }
   ]
 }
