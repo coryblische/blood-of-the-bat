@@ -1,5 +1,3 @@
-import type Author from './author'
-
 export type Document = {
   content: string
   collection: string

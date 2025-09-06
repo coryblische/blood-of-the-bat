@@ -1,13 +1,16 @@
-import Image from 'next/image'
 import { Metadata } from 'next'
-import { OstDocument } from 'outstatic'
-import Header from '@/components/Header'
-import Layout from '@/components/Layout'
-import markdownToHtml from '@/lib/markdownToHtml'
-import { getDocumentSlugs, load } from 'outstatic/server'
-import DateFormatter from '@/components/DateFormatter'
-import { absoluteUrl } from '@/lib/utils'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
+import { OstDocument } from 'outstatic'
+import { getDocumentSlugs, load } from 'outstatic/server'
+
+import DateFormatter from '@/components/DateFormatter'
+import Header from '@/components/Header'
+import markdownToHtml from '@/lib/markdownToHtml'
+import { absoluteUrl } from '@/lib/utils'
+
+import Layout from '@/components/Layout'
+
 
 type Post = {
   tags: { value: string; label: string }[]
@@ -56,39 +59,39 @@ export default async function Post(props: { params: Params }) {
   const post = await getData(params)
   return (
     <Layout>
-      <div className="max-w-6xl mx-auto px-5">
+      <div className='mx-auto max-w-6xl px-5'>
         <Header />
-        <article className="mb-32">
-          <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
+        <article className='mb-32'>
+          <div className='relative mb-2 h-52 w-full sm:mx-0 md:mb-4 md:h-96'>
             <Image
               alt={post.title}
               src={post?.coverImage || ''}
               fill
-              className="object-cover object-center"
+              className='object-cover object-center'
               priority
             />
           </div>
           {Array.isArray(post?.tags)
             ? post.tags.map(({ label }) => (
                 <span
-                  key="label"
-                  className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  key='label'
+                  className='mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700'
                 >
                   {label}
                 </span>
               ))
             : null}
-          <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
+          <h1 className='font-primary mb-2 text-2xl font-bold md:text-4xl'>
             {post.title}
           </h1>
-          <div className="hidden md:block md:mb-12 text-slate-600">
+          <div className='hidden text-slate-600 md:mb-12 md:block'>
             Written on <DateFormatter dateString={post.publishedAt} /> by{' '}
             {post?.author?.name || ''}.
           </div>
-          <hr className="border-neutral-200 mt-10 mb-10" />
-          <div className="max-w-2xl mx-auto">
+          <hr className='mt-10 mb-10 border-neutral-200' />
+          <div className='mx-auto max-w-2xl'>
             <div
-              className="prose lg:prose-xl"
+              className='prose lg:prose-xl'
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </div>
@@ -128,5 +131,5 @@ async function getData(params: { slug: string }) {
 
 export async function generateStaticParams() {
   const posts = getDocumentSlugs('posts')
-  return posts.map((slug) => ({ slug }))
+  return posts.map(slug => ({ slug }))
 }

@@ -1,24 +1,22 @@
 ---
-title: 'Nothing is wrong. Everything is perfect'
+
+title: 'Gig Recap: Iron Man at The Doom Room'
 status: 'published'
 author:
-  name: 'Andre Vitorio'
-slug: 'nothing-wrong'
-description: 'One more day, one more joy. I feel blessed.'
+  name: 'Tony Iommi Jr.'
+slug: 'gig-recap-iron-man'
+description: 'A look back at our electrifying performance of Iron Man at The Doom Room.'
 coverImage: '/images/industrial-pattern.png'
-publishedAt: '2022-09-14T17:55:40.452Z'
+publishedAt: '2025-08-30T21:00:00.000Z'
 ---
 
-Everything's good with me, my fam and my dreams are coming true. One at a time, one at a time.
+Last Saturday, Blood of the Bat took the stage at The Doom Room and unleashed a thunderous rendition of "Iron Man." The crowd was electric, the riffs were heavy, and the spirit of Sabbath was alive and well.
 
-## I love it!
+## Setlist Highlights
 
-Nothing feels unachievable, when I see you smile and look to the horizon. We can take it, life's short but it's enough time to be happy. Love it.
+- War Pigs
+- Paranoid
+- Iron Man
+- Blood of the Bat
 
-```javascript
-const life = 'is great'
-let love = 'is essential'
-let happy = 'be'
-```
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+Thank you to everyone who came out and banged their heads with us. Stay tuned for more shows and Sabbath worship!

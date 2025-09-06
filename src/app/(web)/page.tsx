@@ -1,37 +1,37 @@
-import Layout from '@/components/Layout'
 import { load } from 'outstatic/server'
+
 import ContentGrid from '@/components/ContentGrid'
+import { Main, Section, Container, Prose } from '@/components/ds'
 import markdownToHtml from '@/lib/markdownToHtml'
 
 export default async function Index() {
-  const { content, allPosts, allProjects } = await getData()
+  const { content, allPosts } = await getData()
 
   return (
-    <Layout>
-      <div className="max-w-6xl mx-auto px-5">
-        <section className="mt-16 mb-16 md:mb-12">
-          <div
-            className="prose lg:prose-2xl home-intro"
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
-        </section>
-        {allPosts.length > 0 && (
-          <ContentGrid
-            title="Posts"
-            items={allPosts}
-            collection="posts"
-            priority
-          />
-        )}
-        {allProjects.length > 0 && (
-          <ContentGrid
-            title="Projects"
-            items={allProjects}
-            collection="projects"
-          />
-        )}
-      </div>
-    </Layout>
+    <Main>
+      <Section>
+        <Container>
+          <Prose isSpaced>
+            <div className='mx-auto max-w-6xl px-5'>
+              <section className='mt-16 mb-16 md:mb-12'>
+                <div
+                  className='prose lg:prose-2xl home-intro'
+                  dangerouslySetInnerHTML={{ __html: content }}
+                />
+              </section>
+              {allPosts.length > 0 && (
+                <ContentGrid
+                  title='Posts'
+                  items={allPosts}
+                  collection='posts'
+                  priority
+                />
+              )}
+            </div>
+          </Prose>
+        </Container>
+      </Section>
+    </Main>
   )
 }
 
@@ -56,14 +56,8 @@ async function getData() {
     .sort({ publishedAt: -1 })
     .toArray()
 
-  const allProjects = await db
-    .find({ collection: 'projects' }, ['title', 'slug', 'coverImage'])
-    .sort({ publishedAt: -1 })
-    .toArray()
-
   return {
     content,
-    allPosts,
-    allProjects
+    allPosts
   }
 }
