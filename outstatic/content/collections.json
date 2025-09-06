@@ -10,11 +10,5 @@
     "slug": "posts",
     "path": "outstatic/content/posts",
     "children": []
-  },
-  {
-    "title": "Test",
-    "slug": "test",
-    "path": "outstatic/content/test",
-    "children": []
   }
 ]
