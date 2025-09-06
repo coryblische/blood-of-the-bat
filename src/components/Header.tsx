@@ -14,11 +14,6 @@ const Header = () => {
             Posts
           </Link>
         </li>
-        <li>
-          <Link href='/#projects' className='hover:underline'>
-            Projects
-          </Link>
-        </li>
       </ul>
     </nav>
   )

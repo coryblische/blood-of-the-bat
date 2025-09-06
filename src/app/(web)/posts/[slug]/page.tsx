@@ -5,6 +5,7 @@ import { OstDocument } from 'outstatic'
 import { getDocumentSlugs, load } from 'outstatic/server'
 
 import DateFormatter from '@/components/DateFormatter'
+import { Prose } from '@/components/ds'
 import Header from '@/components/Header'
 import markdownToHtml from '@/lib/markdownToHtml'
 import { absoluteUrl } from '@/lib/utils'
@@ -55,9 +56,9 @@ export default async function Post(props: { params: Params }) {
   const params = await props.params
   const post = await getData(params)
   return (
-    <div className='mx-auto max-w-6xl px-5'>
+    <div className='mx-auto max-w-4xl px-5'>
       <Header />
-      <article className='mb-32'>
+      <div className='mb-32'>
         <div className='relative mb-2 h-52 w-full sm:mx-0 md:mb-4 md:h-96'>
           <Image
             alt={post.title}
@@ -67,31 +68,30 @@ export default async function Post(props: { params: Params }) {
             priority
           />
         </div>
-        {Array.isArray(post?.tags)
-          ? post.tags.map(({ label }) => (
-              <span
-                key='label'
-                className='mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700'
-              >
-                {label}
-              </span>
-            ))
-          : null}
-        <h1 className='font-primary mb-2 text-2xl font-bold md:text-4xl'>
-          {post.title}
-        </h1>
-        <div className='hidden text-slate-600 md:mb-12 md:block'>
-          Written on <DateFormatter dateString={post.publishedAt} /> by{' '}
-          {post?.author?.name || ''}.
-        </div>
-        <hr className='mt-10 mb-10 border-neutral-200' />
-        <div className='mx-auto max-w-2xl'>
-          <div
-            className='prose lg:prose-xl'
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
-        </div>
-      </article>
+        <Prose isArticle isSpaced>
+          {Array.isArray(post?.tags)
+            ? post.tags.map(({ label }) => (
+                <span
+                  key='label'
+                  className='mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700'
+                >
+                  {label}
+                </span>
+              ))
+            : null}
+          <h1 className='font-primary mb-2 text-2xl font-bold md:text-4xl'>
+            {post.title}
+          </h1>
+          <div className='hidden text-slate-600 md:mb-12 md:block'>
+            Written on <DateFormatter dateString={post.publishedAt} /> by{' '}
+            {post?.author?.name || ''}.
+          </div>
+          <hr className='mt-10 mb-10 border-neutral-200' />
+          <div className='mx-auto max-w-2xl'>
+            <div dangerouslySetInnerHTML={{ __html: post.content }} />
+          </div>
+        </Prose>
+      </div>
     </div>
   )
 }
