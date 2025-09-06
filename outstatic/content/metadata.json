@@ -1,25 +1,7 @@
 {
-  "commit": "9cbb4da6de358e538a37b751ec2d5e3e47e2f6b8",
-  "generated": "2025-09-06T16:35:17.580Z",
+  "commit": "6da89dfc0c7a6339b3db31fd50c93cd7b355266a",
+  "generated": "2025-09-06T16:37:11.459Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
-        "hash": "217348983",
-        "path": "/outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
     {
       "__outstatic": {
         "commit": "bf4993b965319da4cb9de4a3810fb4af12bdebd6",
@@ -118,6 +100,24 @@
       "tags": [
       ],
       "title": "post test"
+    },
+    {
+      "__outstatic": {
+        "commit": "6da89dfc0c7a6339b3db31fd50c93cd7b355266a",
+        "hash": "3386443890",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Homepage"
     }
   ]
 }
