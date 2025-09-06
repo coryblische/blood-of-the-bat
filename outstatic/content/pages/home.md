@@ -14,7 +14,7 @@ publishedAt: "2025-09-06T04:00:00.000Z"
 
 ## A Tribute to the Greatest Band in the World
 
-![](/images/chatgpt-image-sep-6--2025--11_41_44-am-QxND.png)
+![Blood of the Bat Logo - Headless Bat Upside Down Dripping Blood](/images/chatgpt-image-sep-6--2025--11_41_44-am-QxND.png)
 
 We are Blood of the Bat, a group of musicians dedicated to keeping the spirit of Black Sabbath alive. Here you'll find band news, gig recaps, song breakdowns, and all things Sabbath. Whether you're a die-hard fan or new to the world of heavy riffs and dark lyrics, this is your home for all things Sabbath.
 
