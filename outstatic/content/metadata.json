@@ -1,6 +1,6 @@
 {
-  "commit": "c99b31c31e952c86a2e7f489142a8ac4d2c810bd",
-  "generated": "2025-09-06T16:28:40.354Z",
+  "commit": "b6938ac1705dec7f8fa936d114b9fdec2acee094",
+  "generated": "2025-09-06T16:29:18.325Z",
   "metadata": [
     {
       "__outstatic": {
@@ -168,6 +168,24 @@
       "slug": "page-2",
       "status": "draft",
       "title": "page 2"
+    },
+    {
+      "__outstatic": {
+        "commit": "b6938ac1705dec7f8fa936d114b9fdec2acee094",
+        "hash": "283399271",
+        "path": "examples/basic-blog/outstatic/content/posts/post-test.mdx"
+      },
+      "author": {
+        "name": "Cory Blische",
+        "picture": "https://avatars.githubusercontent.com/u/7364726?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-06T16:05:12.477Z",
+      "slug": "post-test",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "post test"
     }
   ]
 }
