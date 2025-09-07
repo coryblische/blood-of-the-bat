@@ -1,6 +1,6 @@
 {
-  "commit": "7025bec90f716fefea6e0cbc9b1d29d7e919b729",
-  "generated": "2025-09-06T17:12:44.702Z",
+  "commit": "c984f18dd930a5e4d0b2129f943bfcddbcd86cc7",
+  "generated": "2025-09-07T18:21:27.477Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,34 +17,6 @@
       "slug": "gigs",
       "status": "published",
       "title": "gigs"
-    },
-    {
-      "__outstatic": {
-        "commit": "6d422a8b4c425e5b4553d3f01fe729f11c2f5d02",
-        "hash": "1262783053",
-        "path": "outstatic/content/posts/birth-of-blood.md"
-      },
-      "author": {
-        "name": "Ozzy McCover",
-        "picture": "https://avatars.githubusercontent.com/u/7364726?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/og-image.png",
-      "description": "Announcing the formation of our Black Sabbath cover band.",
-      "publishedAt": "2025-09-06T00:00:00.000Z",
-      "slug": "birth-of-blood",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Band News",
-          "value": "bandNews"
-        },
-        {
-          "label": "Black Sabbath",
-          "value": "blackSabbath"
-        }
-      ],
-      "title": "The Birth of Blood of the Bat"
     },
     {
       "__outstatic": {
@@ -101,6 +73,34 @@
       "slug": "home",
       "status": "published",
       "title": "Homepage"
+    },
+    {
+      "__outstatic": {
+        "commit": "c984f18dd930a5e4d0b2129f943bfcddbcd86cc7",
+        "hash": "4115531941",
+        "path": "outstatic/content/posts/birth-of-blood.md"
+      },
+      "author": {
+        "name": "Ozzy McCover",
+        "picture": ""
+      },
+      "collection": "posts",
+      "coverImage": "/images/og-image.png",
+      "description": "Announcing the formation of our Black Sabbath cover band.",
+      "publishedAt": "2025-09-06T00:00:00.000Z",
+      "slug": "birth-of-blood",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Band News",
+          "value": "bandNews"
+        },
+        {
+          "label": "Black Sabbath",
+          "value": "blackSabbath"
+        }
+      ],
+      "title": "The Birth of Blood of the Bat"
     }
   ]
 }

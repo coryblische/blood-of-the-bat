@@ -11,7 +11,7 @@ tags:
     value: "blackSabbath"
 author:
   name: "Ozzy McCover"
-  picture: "https://avatars.githubusercontent.com/u/7364726?v=4"
+  picture: ""
 slug: "birth-of-blood"
 ---
 
