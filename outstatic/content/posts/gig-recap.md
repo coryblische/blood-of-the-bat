@@ -3,6 +3,7 @@ title: "Gig Recap: Iron Man at The Doom Room!"
 status: "published"
 author:
   name: "Tony Iommi Jr."
+  picture: ""
 slug: "gig-recap"
 description: "A look back at our electrifying performance of Iron Man at The Doom Room."
 coverImage: "/images/industrial-pattern.png"

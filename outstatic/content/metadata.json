@@ -1,6 +1,6 @@
 {
-  "commit": "70fedd4a6d5e036072e6b593aedea1b3039ef89f",
-  "generated": "2025-09-07T18:21:40.224Z",
+  "commit": "28e32ebeaf6f4096471a2a42ab76bae2956abea9",
+  "generated": "2025-09-07T18:21:48.578Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,25 +17,6 @@
       "slug": "gigs",
       "status": "published",
       "title": "gigs"
-    },
-    {
-      "__outstatic": {
-        "commit": "cd5b32cc46ccbe5c9ce3b83cd5c072d978412ddd",
-        "hash": "3468534906",
-        "path": "outstatic/content/posts/gig-recap.md"
-      },
-      "author": {
-        "name": "Tony Iommi Jr."
-      },
-      "collection": "posts",
-      "coverImage": "/images/industrial-pattern.png",
-      "description": "A look back at our electrifying performance of Iron Man at The Doom Room.",
-      "publishedAt": "2025-08-30T21:00:00.000Z",
-      "slug": "gig-recap",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Gig Recap: Iron Man at The Doom Room!"
     },
     {
       "__outstatic": {
@@ -102,6 +83,26 @@
       "tags": [
       ],
       "title": "Song Spotlight: Paranoid"
+    },
+    {
+      "__outstatic": {
+        "commit": "28e32ebeaf6f4096471a2a42ab76bae2956abea9",
+        "hash": "3170788963",
+        "path": "outstatic/content/posts/gig-recap.md"
+      },
+      "author": {
+        "name": "Tony Iommi Jr.",
+        "picture": ""
+      },
+      "collection": "posts",
+      "coverImage": "/images/industrial-pattern.png",
+      "description": "A look back at our electrifying performance of Iron Man at The Doom Room.",
+      "publishedAt": "2025-08-30T21:00:00.000Z",
+      "slug": "gig-recap",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Gig Recap: Iron Man at The Doom Room!"
     }
   ]
 }
