@@ -6,6 +6,7 @@ coverImage: "/images/skyline.png"
 publishedAt: "2025-09-01T00:00:00.000Z"
 author:
   name: "Geezer Butler Jr."
+  picture: ""
 slug: "song-spotlight"
 ---
 

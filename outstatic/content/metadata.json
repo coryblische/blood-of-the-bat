@@ -1,6 +1,6 @@
 {
-  "commit": "c984f18dd930a5e4d0b2129f943bfcddbcd86cc7",
-  "generated": "2025-09-07T18:21:27.477Z",
+  "commit": "70fedd4a6d5e036072e6b593aedea1b3039ef89f",
+  "generated": "2025-09-07T18:21:40.224Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,25 +17,6 @@
       "slug": "gigs",
       "status": "published",
       "title": "gigs"
-    },
-    {
-      "__outstatic": {
-        "commit": "971d5b21d326e4cbde13dbb6bb1a96a894846193",
-        "hash": "585116787",
-        "path": "outstatic/content/posts/song-spotlight.md"
-      },
-      "author": {
-        "name": "Geezer Butler Jr."
-      },
-      "collection": "posts",
-      "coverImage": "/images/skyline.png",
-      "description": "A deep dive into Black Sabbath’s classic anthem, Paranoid.",
-      "publishedAt": "2025-09-01T00:00:00.000Z",
-      "slug": "song-spotlight",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Song Spotlight: Paranoid"
     },
     {
       "__outstatic": {
@@ -101,6 +82,26 @@
         }
       ],
       "title": "The Birth of Blood of the Bat"
+    },
+    {
+      "__outstatic": {
+        "commit": "70fedd4a6d5e036072e6b593aedea1b3039ef89f",
+        "hash": "2155240216",
+        "path": "outstatic/content/posts/song-spotlight.md"
+      },
+      "author": {
+        "name": "Geezer Butler Jr.",
+        "picture": ""
+      },
+      "collection": "posts",
+      "coverImage": "/images/skyline.png",
+      "description": "A deep dive into Black Sabbath’s classic anthem, Paranoid.",
+      "publishedAt": "2025-09-01T00:00:00.000Z",
+      "slug": "song-spotlight",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Song Spotlight: Paranoid"
     }
   ]
 }
