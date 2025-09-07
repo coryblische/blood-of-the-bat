@@ -1,6 +1,6 @@
 {
-  "commit": "28e32ebeaf6f4096471a2a42ab76bae2956abea9",
-  "generated": "2025-09-07T18:21:48.578Z",
+  "commit": "85278a238cc027314dbcae8dfd07df8d545e8177",
+  "generated": "2025-09-07T18:21:58.100Z",
   "metadata": [
     {
       "__outstatic": {
@@ -17,24 +17,6 @@
       "slug": "gigs",
       "status": "published",
       "title": "gigs"
-    },
-    {
-      "__outstatic": {
-        "commit": "7025bec90f716fefea6e0cbc9b1d29d7e919b729",
-        "hash": "567249229",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "init",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2025-09-06T04:00:00.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Homepage"
     },
     {
       "__outstatic": {
@@ -103,6 +85,24 @@
       "tags": [
       ],
       "title": "Gig Recap: Iron Man at The Doom Room!"
+    },
+    {
+      "__outstatic": {
+        "commit": "85278a238cc027314dbcae8dfd07df8d545e8177",
+        "hash": "567249229",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "init",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2025-09-06T04:00:00.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Homepage"
     }
   ]
 }
