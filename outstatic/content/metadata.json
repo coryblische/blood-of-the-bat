@@ -1,23 +1,7 @@
 {
-  "commit": "85278a238cc027314dbcae8dfd07df8d545e8177",
-  "generated": "2025-09-07T18:21:58.100Z",
+  "commit": "3d37309f05bfaf4d73e9e07bf74ceaeb3ef3fa0f",
+  "generated": "2025-09-07T18:22:06.938Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "9099eca28e144d7b8b82e4abf37933518d2807df",
-        "hash": "370692768",
-        "path": "outstatic/content/pages/gigs.mdx"
-      },
-      "author": {
-        "name": "Cory Blische",
-        "picture": "https://avatars.githubusercontent.com/u/7364726?v=4"
-      },
-      "collection": "pages",
-      "publishedAt": "2025-09-06T16:26:56.799Z",
-      "slug": "gigs",
-      "status": "published",
-      "title": "gigs"
-    },
     {
       "__outstatic": {
         "commit": "c984f18dd930a5e4d0b2129f943bfcddbcd86cc7",
@@ -103,6 +87,22 @@
       "slug": "home",
       "status": "published",
       "title": "Homepage"
+    },
+    {
+      "__outstatic": {
+        "commit": "3d37309f05bfaf4d73e9e07bf74ceaeb3ef3fa0f",
+        "hash": "2798097275",
+        "path": "outstatic/content/pages/gigs.mdx"
+      },
+      "author": {
+        "name": "Cory Blische",
+        "picture": ""
+      },
+      "collection": "pages",
+      "publishedAt": "2025-09-06T16:26:56.799Z",
+      "slug": "gigs",
+      "status": "published",
+      "title": "gigs"
     }
   ]
 }
