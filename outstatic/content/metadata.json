@@ -1,6 +1,6 @@
 {
-  "commit": "3d37309f05bfaf4d73e9e07bf74ceaeb3ef3fa0f",
-  "generated": "2025-09-07T18:22:06.938Z",
+  "commit": "339cdd4f9daaabc3b8ae357b21f1784a1eb66c44",
+  "generated": "2025-09-08T18:28:19.037Z",
   "metadata": [
     {
       "__outstatic": {
@@ -103,6 +103,24 @@
       "slug": "gigs",
       "status": "published",
       "title": "gigs"
+    },
+    {
+      "__outstatic": {
+        "commit": "339cdd4f9daaabc3b8ae357b21f1784a1eb66c44",
+        "hash": "791919910",
+        "path": "outstatic/content/posts/this-will-post-tomorrow.mdx"
+      },
+      "author": {
+        "name": "Cory Blische",
+        "picture": "https://avatars.githubusercontent.com/u/7364726?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-09-09T04:00:00.000Z",
+      "slug": "this-will-post-tomorrow",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "This will post tomorrow"
     }
   ]
 }
